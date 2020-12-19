@@ -1,0 +1,267 @@
+body header{
+    text-align: center;
+}
+.navbar .navbar-brand{
+    text-align: center;
+}
+.carousel-item{
+    width: 100%;
+}
+
+
+/* @media screen and (min-width: 320px){ */
+.navbar-light .navbar-brand{
+    font-size: 1em;
+}
+.banner{
+    background-image: url(../img/technology-785742_960_720.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+}
+.banner h1{
+    color: white;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 130px auto 0px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
+}
+.banner h2 , p{
+    margin: 30px auto;
+    font-size: 1.2em;
+    color: white;
+}
+.banner a{
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    width: 190px;
+    display: block;
+}
+.banner a:hover{
+    background-color: turquoise;
+    text-decoration: unset;
+    color: black;
+}
+
+
+
+
+.container{
+    padding: 60px 0px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+.barra{
+    height: 10px;
+    background-color: black;
+    width: 20%;
+    margin: 10px auto 30px;
+}
+.subtitle{
+    color: black;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.4em;
+}
+#quem-sou h4{
+    text-align: center;
+}
+#quem-sou ul{
+    list-style: none;
+}
+#quem-sou ul li{
+    margin: 20px 0px 40px;
+    width: 90%;
+}
+#quem-sou ul li a{
+    border: solid 1px black;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+#quem-sou ul li a:hover{
+    text-decoration: unset;
+    background-color: rgb(31, 31, 31);
+}
+#quem-sou ul li a i{
+    margin: 0px 10px 0px 0px;
+}
+
+
+
+
+#projetos img{
+    max-width: 90%;
+    height: 300px;
+    border-radius: 10px;
+}
+#projetos p{
+    color: black;
+}
+.bloco-projeto{
+    text-align: center;
+}
+.bloco-projeto p{
+    width: 90%;
+    font-size: 1.3em;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+
+
+.banner-two{
+    background-image: url(../img/programming-1857236_960_720.webp);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    height: 350px;
+    margin: 5px 0px 15px;
+}
+.card p{
+    color: black;
+}
+.card img{
+    max-height: 200px;
+    max-width: 100%;
+}
+.card-title{
+    font-size: 1.3em;
+}
+.card-text{
+    font-size: 1.1em;
+}
+
+
+
+#curso-formacao{
+    background-color: rgb(235, 231, 231);
+}
+.curso-formacao{
+    padding: 15px 0px;
+}
+.curso-formacao h4{
+    margin-left: 17px;
+}
+.item-bloco-curso-formacao{
+    list-style: none;
+    padding: 0px;
+}
+.item-bloco-curso-formacao i{
+    color: green;
+    margin-right: 15px;
+}
+.item-bloco-curso-formacao li{
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+#contato .subtitle{
+    text-align: center;
+}
+form{
+    margin-left: 30px;
+}
+form input{
+    padding: 5px 10px;
+    margin: 0px 5px 10px;
+    width: 40%;
+}
+#input-assunto{
+    display: block;
+    width: 83%;
+}
+form textarea{
+    width: 83%;
+    margin-left: 5px;
+}
+form input[type='submit']{
+    margin: 5px 0px 0px 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+form input[type='submit']:hover{
+    background-color: rgb(214, 208, 208);
+}
+
+
+footer{
+    background-color: rgba(102, 101, 101, 0.781);
+    padding: 15px 0px;
+}
+footer p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.nav-footer{
+    list-style: none;
+    text-align: center;
+}
+.nav-footer li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 1.5em;
+}
+.nav-footer a{
+    color: white;
+    padding: 5px 10px;
+}
+.nav-footer a:hover{
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 990px){
+    .navbar{
+        position: relative;
+    }
+    .navbar-light .navbar-brand{
+        font-size: 1.6em;
+    }
+    .banner h1{
+        font-size: 2.5em;
+    }
+    .banner h2 , p{
+        font-size: 2em;
+    }
+    .collapse{
+        position: absolute;
+        right: 30px;
+    }
+    .banner-two{
+        height: 700px;
+    }
+    .conhecimento-linguagens{
+        text-align: center;
+    }
+    form{
+        margin-left: 140px
+    }
+    .input-primeiros{
+        width: 40.9%;
+    }
+    #input-asssunto{
+        width: 80%;
+    }
+   
+}
